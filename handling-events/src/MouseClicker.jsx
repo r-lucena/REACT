@@ -2,6 +2,7 @@ import React from 'react';
 
 const MouseClicker = () => {
   const handleClickButton = (event) => {
+    if (event.target.tagName === 'IMG')
     console.log(event.target.name);
   };
 
