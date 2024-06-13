@@ -1,14 +1,16 @@
-import Login from './Login'
+import Login from './components/Login'
 import './App.css'
-import UncontrolledLogin from './UncontrolledLogin'
+
 
 function App() {
- 
+  const handleLogin = (state) => {
+    console.log(state);
+  };
 
   return (
     <>
-      <Login/>
-      <UncontrolledLogin/>
+      <Login onLogin={handleLogin}/>
+      
     </>
   )
 }
