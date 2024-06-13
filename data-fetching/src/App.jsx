@@ -1,12 +1,15 @@
 import './App.css'
 import GithubUser from './GithubUser'
+import GithubUsers from './GitHubForm'
+
 
 function App() {
 
 
   return (
     <>
-      <GithubUser username={'ciincin'}/>
+      <GithubUsers/>
+     
     </>
   )
 }
