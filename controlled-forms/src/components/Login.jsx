@@ -19,7 +19,7 @@ const Login = ({onLogin}) => {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Con el método preventDefault() prevenimos el comportamiento predeterminado del elemento form
     onLogin({username,password,remember});
   };
 
