@@ -7,8 +7,9 @@ function App() {
   return (
     <>
       <Container title="Container">
-      <p>Children showing</p>
-      </Container>
+  <p>Children showing</p>
+
+</Container>
       
     </>
   
