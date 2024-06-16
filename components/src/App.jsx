@@ -1,12 +1,14 @@
-import { useState } from 'react'
+
 import Container from './Components'
 import './App.css'
 
 function App() {
-  const [isCollapsed,setisCollapsed] = useState()
+  
   return (
     <>
-      <Container title='title'/>
+      <Container title="Container">
+      <p>Children showing</p>
+      </Container>
       
     </>
   
